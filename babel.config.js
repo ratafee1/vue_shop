@@ -9,6 +9,9 @@ module.exports = {
         'libraryName': 'element-ui',
         'styleLibraryName': 'theme-chalk'
       }
-    ]
+    ],
+    // 发布产品时的插件数组
+    // ...prodPlugins,
+    '@babel/plugin-syntax-dynamic-import'
   ]
 }
